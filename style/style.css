@@ -1,0 +1,37 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+/* Global variables */
+:root {
+  --bg-light: white;
+  --text-light: rgb(50, 50, 50);
+  --bg-dark: rgb(25, 25, 25);
+  --text-dark: whitesmoke;
+  --bg-light-active: rgba(255, 255, 255, 0.7);
+  --bg-dark-active: rgba(25, 25, 25, 0.7);
+  --text-light-active: rgba(50, 50, 50, 0.7);
+  --text-dark-active: rgba(245, 245, 245, 0.7);
+  --border-dark-active: rgba(25, 25, 25, 0.2);
+  --border-light-active: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  background-color: var(--bs-body-bg);
+}
+
+.btn {
+  transition: 0.3s ease all;
+}
+
+.btn:hover {
+  transition: 0.3s ease all;
+  transform: scale(1.1);
+}
+
+@media (min-width: 768px) { 
+  body {
+    overflow: hidden;
+  }
+ }
